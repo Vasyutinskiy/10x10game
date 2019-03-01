@@ -1,0 +1,140 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Roboto, sans-serif;
+}
+div {
+    box-sizing: border-box;
+}
+section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background: #6495ed;
+    width: 100%;
+    max-width: 60px;
+    height: 60px;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 0;
+    transition: 0.3s;
+}
+button:hover {
+    outline: none;
+    box-shadow: none;
+    /*background: #47D2ED;*/
+    background: #ffff00;
+    color: #000;
+    transition: 0.3s;
+}
+input {
+    width: 155px;
+    height: 40px;
+    padding: 0 10px;
+    color: #000;
+}
+.game-test_cover {
+    position: relative;
+    font-family: Roboto, sans-serif;
+}
+.score-table_user,
+.score-table_machine {
+    width: 50px;
+    height: 50px;
+    margin: 50px 20px 0;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    border: 3px solid #6495ed;
+    border-radius: 5px;
+    line-height: 30px;
+}
+.result-panel_cover,
+.field-cover,
+.controls-cover {
+    display: flex;
+    align-self: center;
+}
+.controls-cover {
+    max-width: 300px;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.controls-cover form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.controls-cover input {
+    outline: none;
+    color: #000;
+    font-size: 15px;
+    width: 190px;
+    border-radius: 20px;
+    box-shadow: none;
+    border: 10px solid #6495ed;
+}
+.controls-cover input:focus {
+    border-color: #ffff00;
+}
+.game-controls {
+    margin-bottom: 30px;
+}
+.field-cover {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    margin: 30px auto;
+    pointer-events: none;
+}
+.field-item {
+    width: 30px;
+    height: 30px;
+    background: #0000ff;
+    border: 1px solid #fff;
+}
+.yellow-item {
+    background: #ffff00;
+}
+.red-item {
+    background: #ff0000;
+}
+.green-item {
+    background: #028011;
+}
+.result-window_cover {
+    width: 100%;
+    height: auto;
+}
+.result-window {
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    position: absolute;
+    margin: auto;
+    position: absolute;
+    max-width: 400px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+}
